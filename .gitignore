@@ -1,0 +1,13 @@
+# Terraform state files — never commit these
+*.tfstate
+*.tfstate.*
+
+# Terraform working directory — downloaded providers/modules
+.terraform/
+
+# Variable files that might contain secrets
+*.tfvars
+*.tfvars.json
+
+# Crash logs
+crash.log
