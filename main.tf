@@ -26,5 +26,6 @@ resource "aws_s3_bucket" "app" {
     Environment = var.environment
     ManagedBy   = "Terraform"
     DeployedBy  = "GitHub-Actions"
+    CostCenter  = "Learning"
   }
 }
